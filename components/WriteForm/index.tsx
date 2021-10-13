@@ -18,7 +18,7 @@ export const WriteForm: React.FC<WriteFormProps> = ({ title }) => {
         <Editor />
       </div>
       <Button variant="contained" color="primary">
-        <MessageIcon className="mr-10" />
+        {/* <MessageIcon className="mr-10" /> */}
         Опубликовать
       </Button>
     </div>
